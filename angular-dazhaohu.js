@@ -1,10 +1,22 @@
 (function(){
   'use strict';
-  var angular = require('angular');
-  return angular.module('angular-dazhaohu', [])
-  .filter('dazhaohu', [function(){
-    return function(value){
-      return 'hello';
-    }
-  }]);
+
+  function angularDazhaohu(angular){
+    return angular.module('angular-dazhaohu', [])
+    .filter('dazhaohu', [function(){
+      return function(value){
+        return 'hello';
+      }
+    }]);
+  }
+  if (typeof define === 'function' && define.amd) {
+		define(['angular'], angularDazhaohu);
+	} else if (typeof module !== 'undefined' && module && module.exports) {
+		angularDazhaohu(require('angular'));
+		module.exports = 'angularDazhaohu';
+	} else {
+		angularDazhaohu(angular;
+	}
+
+
 })();
