@@ -5,6 +5,7 @@
     return angular.module('angular-dazhaohu', [])
     .filter('dazhaohu', [function(){
       return function(value){
+        console.log(value);
         return 'hello';
       }
     }]);
@@ -15,7 +16,7 @@
 		angularDazhaohu(require('angular'));
 		module.exports = 'angularDazhaohu';
 	} else {
-		angularDazhaohu(angular;
+		angularDazhaohu(angular);
 	}
 
 
