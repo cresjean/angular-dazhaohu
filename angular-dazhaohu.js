@@ -1,9 +1,10 @@
 (function(){
   'use strict';
+  var angular = require('angular');
   return angular.module('angular-dazhaohu', [])
-  .fitler('dazhaohu', [function(){
+  .filter('dazhaohu', [function(){
     return function(value){
       return 'hello';
     }
   }]);
-})():
+})();
