@@ -1,0 +1,28 @@
+{
+  "name": "angular-dazhaohu",
+  "version": "0.0.1",
+  "main": "angular-dazhaohu.js",
+  "authors": [
+    "Crespo Wang <hotpuma@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "spec",
+    "source",
+    "package.json",
+    "README.md",
+    "bower.json",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/cresjean/angular-dazhaohu",
+  "description": "Get datetime and say Good morning / afternoon / evening in Chinese",
+  "keywords": [
+    "angular",
+    "chinese",
+    "datetime"
+  ]
+}
