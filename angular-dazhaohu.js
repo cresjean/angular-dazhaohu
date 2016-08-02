@@ -1,12 +1,9 @@
 (function(){
   'use strict';
-
   function angularDazhaohu(angular){
     return angular.module('angular-dazhaohu', [])
     .filter('dazhaohu', [function(){
       return function(value){
-
-        console.log(value);
         if (value != undefined && value != null &&  typeof value.getHours === 'function')
         {
             if (value.getHours() >= 0 && value.getHours() < 3){
@@ -43,6 +40,4 @@
 	} else {
 		angularDazhaohu(angular);
 	}
-
-
 })();

@@ -19,11 +19,12 @@
     "tests"
   ],
   "dependencies": {
-		"angular": ">=1.2.0 <1.6.0",
-		"moment": ">=2.8.0 <3.0.0"
-	},
+    "angular": ">=1.2.0 <1.6.0",
+    "moment": ">=2.8.0 <3.0.0",
+    "angular-mocks": "^1.5.8"
+  },
   "homepage": "https://github.com/cresjean/angular-dazhaohu",
-  "description": "Get datetime and say Good morning / afternoon / evening in Chinese",
+  "description": "Get datetime and greet in Chinese",
   "keywords": [
     "angular",
     "chinese",
