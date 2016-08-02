@@ -2,10 +2,14 @@
 
 This angular filter supports the input of an datetime object and output the greeting in simplified Chinese, such as input 7:00AM output 早上好
 ## Installation
-```
+
+```shell
 bower install angular-dazhaohu --save
 ```
 
+```shell
+npm install angular-dazhaohu
+```
 ## Usage
 
 Include angular-dazhaohu.js in your application
