@@ -1,7 +1,7 @@
 {
   "name": "angular-dazhaohu",
   "version": "0.1.0",
-  "main": "angular-dazhaohu.js",
+  "main": "dist/angular-dazhaohu.min.js",
   "authors": [
     "Crespo Wang <hotpuma@gmail.com>"
   ],

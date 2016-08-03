@@ -2,10 +2,12 @@
   "name": "angular-dazhaohu",
   "version": "0.1.0",
   "description": "Get datetime and greet in Chinese",
-  "main": "angular-dazhaohu.js",
+  "main": "dist/angular-dazhaohu.min.js",
   "scripts": {
+    "bower": "bower install",
     "test": "karma start --single-run",
-    "watch:test": "karma start"
+    "watch:test": "karma start",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -25,11 +27,15 @@
   "homepage": "https://github.com/cresjean/angular-dazhaohu#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.0",
     "karma": "^1.1.2",
     "karma-chai": "^0.1.0",
     "karma-chrome-launcher": "^1.0.1",
     "karma-mocha": "^1.1.1",
     "karma-phantomjs-launcher": "^1.0.1",
-    "mocha": "^3.0.0"
+    "mocha": "^3.0.0",
+    "pump": "^1.0.1"
   }
 }
